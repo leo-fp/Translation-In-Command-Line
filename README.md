@@ -1,6 +1,4 @@
 # Translation-In-Command-Line
-自用命令行翻译工具
-﻿# Translation-In_Command-Line
 基于命令行的翻译工具
 
 # 效果
