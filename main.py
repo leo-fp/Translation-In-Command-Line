@@ -21,8 +21,11 @@ if __name__ == "__main__":
     myurl = '/api/trans/vip/translate'
     q = sys.argv[1]
     #print q
-    fromLang = 'en'
+    fromLang = parse.parse_from(sys.argv[1])
     toLang = 'zh'
+    #如果源语种是中文，则换英文输出
+    if(fromLang == toLang):
+        toLang = 'en'
     salt = random.randint(32768, 65536)
 
     sign = appid+q+str(salt)+secretKey
