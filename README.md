@@ -5,6 +5,9 @@
 ```
 $ dic hello world
 你好世界
+
+$ dic 你好世界
+hello world
 ```
 # 环境
 python 2.7.4
