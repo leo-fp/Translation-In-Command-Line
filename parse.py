@@ -15,3 +15,14 @@ def parse_conf():
             list_conf.append(item[1])
         f.close()
         return list_conf
+
+#解析源语种
+def parse_from(string_input):
+    LIST = list("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+    input_list = list(string_input)
+    for each in input_list:
+        if each in LIST:
+            return "en"
+            break;
+    #默认中文
+    return "zh"
