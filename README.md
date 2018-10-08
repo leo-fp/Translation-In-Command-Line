@@ -23,3 +23,6 @@ ubuntu 14.04.3
 3.在dic_conf.txt里输入相应信息
 
 4.将dic文件里的./main.py(最后一行)改为绝对路径，将parse.py里的./dic_conf.txt也改为绝对路径
+
+# 正在完成
+* 重定向
