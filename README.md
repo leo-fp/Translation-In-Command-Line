@@ -1,5 +1,6 @@
 # Translation-In-Command-Line
 基于命令行的翻译工具
+version:1.0.0
 
 # 效果
 ```
