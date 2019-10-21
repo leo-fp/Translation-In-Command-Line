@@ -17,11 +17,11 @@ then
     fi
 
     echo "env looks great."
+    cd `dirname $0`
+    echo "python "`pwd`"/main.py"' "$string"' >> ./dic
     sudo cp ./dic /usr/bin
     sudo chmod +x /usr/bin/dic
     echo "enjoy!"
-    cd `dirname $0`
-    echo "python "`pwd`"/main.py"' "$string"' >> ./dic
 else
     echo "ERROR: command conflict!@setup"
 fi
