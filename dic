@@ -10,4 +10,4 @@ do
     let index+=1
 done
 #echo $string
-python ./main.py "$string"
+#python ./main.py "$string"
