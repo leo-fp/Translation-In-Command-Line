@@ -19,7 +19,7 @@ class Translator_ab:
     _TYPE = ""   # type of translator. ONLINE / OFFLINE
     _api = ""    # api
     _query = ""  # content to be translated
-    _from = ""    # source language
+    _from = ""   # source language
     _to = ""     # target language
 
     def __init__(self):
@@ -38,7 +38,7 @@ class Translator_ab:
         return self._from
 
     def getTo(self):
-        return self.o
+        return self.To
 
     def getApi(self):
         return self._api
