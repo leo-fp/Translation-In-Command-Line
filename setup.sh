@@ -7,7 +7,7 @@
 ##########################
 
 echo "Checking Environment..."
-if [ ! -x dici ]
+if [ ! -x dic ]
 then
     if [ ! -d /usr/bin ];
     then 
