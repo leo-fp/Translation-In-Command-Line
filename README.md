@@ -1,7 +1,7 @@
 # Translation-In-Command-Line
 基于命令行的翻译工具
 
-**version:2.0.1.1025_alpha**
+**version:2.0.1.1026_alpha**
 
 # 效果
 ```
