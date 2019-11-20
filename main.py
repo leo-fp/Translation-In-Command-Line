@@ -55,7 +55,7 @@ class Translator_ab:
     def setFrm(self, from_):
         self._from = from_
 
-    def setTo(self, *_to):
+    def setTo(self, *to):
         toLang = 'zh'
         #如果源语种是中文，则换英文输出
         if(self._from == toLang):
