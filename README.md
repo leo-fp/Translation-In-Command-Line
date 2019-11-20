@@ -1,7 +1,7 @@
 # Translation-In-Command-Line
 基于命令行的翻译工具
 
-**version:2.0.1.1026_alpha**
+**version:2.0.1.1120_alpha**
 
 # 效果
 ```
@@ -32,3 +32,4 @@ ubuntu 14.04.3
 
 # 正在完成
 * 重定向
+* 词典
