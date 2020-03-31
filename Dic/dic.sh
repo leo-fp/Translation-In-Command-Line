@@ -10,4 +10,3 @@ do
     let index+=1
 done
 #echo $string
-python /home/pf/公共的/Translation-In-Command-Line/main.py "$string"
