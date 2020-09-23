@@ -1,7 +1,11 @@
 # Translation-In-Command-Line
 基于命令行的翻译工具
 
-**version:2.0.1.1120_alpha**
+* The project is no longer maintained separately.
+* 本项目不再单独维护
+
+
+**version:2.0.1.200924_alpha**
 
 # 效果
 ```
@@ -30,6 +34,6 @@ ubuntu 14.04.3
 * 所译内容为纯英文的情况,请在英文状态下输入
 * 所译内容为中英文混杂的情况,英文部分请在中文状态下输入
 
-# 正在完成
-~~ 重定向 ~~
-* 词典
+# about the repo
+* This repo is licensed under MIT.
+* If the project is helpful for you, please feel free to let me know.
